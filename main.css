@@ -10,8 +10,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  height: 100%;
+}
 body {
   background-color: var(--page-color);
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 h1 {
   font-family: var(--alt-font);
@@ -97,6 +103,11 @@ nav a:hover {
 .nav-toggle:checked ~ nav a {
   opacity: 1;
   transition: opacity 250ms ease-in-out 250ms;
+}
+footer{
+  margin-top: auto;
+  padding: 1em;
+  background-color: var(--main-color);
 }
 @media (min-width: 800px) {
   .nav-toggle-label {

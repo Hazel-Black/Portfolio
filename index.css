@@ -1,6 +1,19 @@
-body{
-    background-image: url(images/home-background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
+body {
+  background-image: url(images/home-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.main {
+  margin-top: 100%;
+  font-size: 51px;
+  text-align: center;
+  font-family: var(--alt-font);
+  color: var(--text-color);
+}
+@media (min-width: 500px) {
+  .main {
+    font-size: 96px;
+    margin-top: 30%;
+  }
 }
