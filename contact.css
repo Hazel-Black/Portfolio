@@ -1,10 +1,8 @@
-
 body {
   background-image: url(images/contact-background.jpg);
   min-height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-
   display: flex;
   margin: auto;
 }
