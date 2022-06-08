@@ -1,0 +1,90 @@
+body {
+  background-image: url(images/contact-background.jpg);
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  margin: auto;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15em;
+  background-color: var(--main-color);
+  width: 85%;
+  max-width: 50em;
+  margin-left: 1.5em;
+  padding: 2em 1em;
+}
+.email {
+  margin-bottom: 4em;
+}
+input {
+  width: 90%;
+  max-width: 30em;
+  outline: none;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-color: var(--text-color);
+  border-width: 5px;
+  background-color: var(--main-color);
+  color: var(--text-color);
+  margin-bottom: 2em;
+  font-size: 21;
+  padding-bottom: 0.5em;
+}
+input[type="email"] {
+  font-family: var(--main-font);
+  font-size: 16px;
+}
+input[type="text"] {
+  font-family: var(--main-font);
+  font-size: 16px;
+}
+textarea {
+  border: none;
+  width: 90%;
+  max-width: 30em;
+  height: 18em;
+  padding-left: 0.5em;
+  padding-top: 0.5em;
+  margin-bottom: 3em;
+  resize: none;
+  outline: none;
+  font-size: 16px;
+  font-family: var(--main-font);
+  color: var(--main-color);
+}
+::placeholder {
+  color: white;
+  font-family: var(--main-font);
+  font-size: 18px;
+}
+
+textarea::placeholder {
+  color: var(--main-color);
+}
+button {
+  border: none;
+  font-size: 21px;
+  color: var(--text-color);
+  background-color: var(--main-color);
+}
+button:hover {
+  background-color: var(--text-color);
+  color: var(--main-color);
+  padding: 1em;
+  border-radius: 30px;
+}
+@media (min-width: 600px) {
+  form {
+    margin: 10em auto;
+    padding-top: 10em;
+    padding-bottom: 5em;
+    width: 65%;
+  }
+}
