@@ -1,0 +1,43 @@
+body {
+  background-image: url(images/rubics-cube.png);
+  background-blend-mode: soft-light;
+  max-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+main h1 {
+  margin-top: 30%;
+  text-align: center;
+  padding-top: 1em;
+}
+p {
+  font-family: var(--main-font);
+  color: var(--text-color);
+  font-size: 12px;
+  padding: 5em 3em;
+}
+.par {
+  background-color: #c986a7;
+  margin-right: 5em;
+  border-radius: 10px;
+}
+@media (min-width: 800px) {
+  p {
+    padding: 1em 3em;
+    padding-bottom: 4em;
+    font-size: 21px;
+  }
+  .par {
+    margin: 0 5em;
+  }
+  main h1 {
+    margin-top: 20%;
+  }
+}
+@media (min-width: 1600px) {
+  p {
+    padding: 1em 10em;
+    padding-bottom: 4em;
+  }
+}
