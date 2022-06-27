@@ -14,6 +14,16 @@
   width: 100%;
   margin-top: 0;
 }
+.resume-logo {
+  border-width: 2px;
+  border-style: solid;
+  border-color: var(--text-color);
+  border-color: white;
+  padding: 1em;
+  color: white;
+  margin-bottom: 1em;
+}
+
 .cols {
   display: flex;
   width: 100%;
@@ -24,8 +34,36 @@
   background-color: #dcb4c7;
   width: 70%;
 }
+.prof-summary,
+.accomplishments,
+.work-history {
+  margin-bottom: 2em;
+}
 .right-col {
   background-color: #d4afc0;
   width: 30%;
   padding: 5em;
+  text-align: center;
+}
+.contact-info,
+.skills {
+  margin-bottom: 4em;
+}
+.skills ul li {
+  list-style: none;
+}
+.links h2 {
+  margin-block-start: 1em;
+}
+.links a {
+  display: flex;
+  justify-content: center;
+  margin-block-start: 0.5em;
+  text-decoration: none;
+  background-color: var(--main-color);
+  color: var(--text-color);
+  padding: 10px;
+}
+.work{
+  margin-block-start: 1em;
 }
