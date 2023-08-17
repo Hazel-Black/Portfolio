@@ -17,7 +17,7 @@
   </head>
   <body>
     <header>
-      <img class="logo" src="images/HazelB Dev_free-file.png" alt="">
+      <img class="logo" src="images/Hazel Black.png" alt="">
       <input type="checkbox" id="nav-toggle" class="nav-toggle" />
       <nav>
         <ul>
@@ -30,9 +30,7 @@
           <li>
             <a href="about.html">About</a>
           </li>
-          <li>
-            <a href="resume.html">Resume</a>
-          </li>
+
           <li>
             <a href="contact.html">Contact</a>
           </li>
@@ -65,6 +63,42 @@
         </div>
       </div>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="contact-container">
+        <h3>#GET IN TOUCH</h3>
+        <h4>Let's Chat Today!</h4>
+        <form action="https://formsubmit.co/hazelbdev@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="New submission!" />
+          <input type="hidden" name="_captcha" value="true" />
+          <input
+            type="hidden"
+            name="_next"
+            value="https://hazelbdev.com/thankyou.html"
+          />
+          <input type="text" name="name" placeholder="Enter Name" required />
+
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter Email"
+            class="email"
+            required
+          />
+          <textarea
+            name="Message"
+            id="Message"
+            rows="10"
+            placeholder="Enter Message"
+            type="text"
+          ></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+      <div>
+        <div class="icons bottom-icons"></div>
+        <div class="icons bottom-icons"></div>
+      </div>
+    </footer>
+
   </body>
 </html>
