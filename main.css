@@ -4,11 +4,12 @@
   box-sizing: border-box;
 }
 :root {
-  --main-color: #181818;
+  --main-color: #000000;
   --main-color-light: #181818bd;
   --alt-footer-color: #141515;
   --gradient: linear-gradient(to right,#fd4766, #7644ff,  #1c99fe);
-  --bg-color: #313333;
+  --bg-color: #181818;
+  --border-color: #313333;
   --text-color: white;
   --alt-text:#A0A2A4;
   --main-font: "Poppins";
@@ -110,13 +111,13 @@ nav a:hover {
 
 footer {
   margin-top: auto;
-  padding-bottom: 5em;
+  padding-bottom: 2em;
 
-  background-color: var(--alt-footer-color);
+  background-color:var(--main-color) ;
 }
 .contact-container {
   padding: 2em 1em ;
-  background-color: var(--main-color);
+  background-color:var(--alt-footer-color) ;
 }
 .contact-container h3{
   font-size: 1rem;
@@ -148,7 +149,7 @@ input {
   border-left: none;
   border-color: var(--text-color);
   border-width: 1px;
-  background-color: var(--main-color);
+  background-color: var(--alt-color);
   color: var(--text-color);
   margin-bottom: 2em;
   font-size: 21;
@@ -195,7 +196,17 @@ button {
   padding: 1em 2em;
   border-radius: 2em;
 }
-
+.icons-flex{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+.icons-flex i{
+  margin-right: 1em;
+  margin-left: 1em;
+}
 @media (min-width: 800px) {
   .nav-toggle-label {
     display: none;
@@ -242,6 +253,6 @@ button {
   }
   .logo {
     margin-block: 0.5em;
-    margin-inline: 10.5em;
+    margin-inline-end: 5.5em;
   }
 }
