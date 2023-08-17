@@ -30,9 +30,8 @@ h2 {
   background-size: 100%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
 }
-.intro-section i{
+.intro-section i {
   margin-bottom: 2em;
 }
 
@@ -67,49 +66,50 @@ h4 {
   padding: 0.5em 3em;
   border-radius: 2em;
 }
-.skills-container , .projects-container{
+.skills-container,
+.projects-container {
   padding-block: 2em;
   padding-inline: 3em;
 }
 .skills {
   display: flex;
   justify-content: center;
-  align-items: center ;
+  align-items: center;
 }
 .skill-box {
   text-align: center;
   border: var(--border-color) solid 1px;
-  border-radius: .5em;
+  border-radius: 0.5em;
   width: 10em;
-  margin-right: .5em;
-margin-bottom: 1em;
-padding-block-start: 3em;
-padding-block-end: 1em;
+  margin-right: 0.5em;
+  margin-bottom: 1em;
+  padding-block-start: 3em;
+  padding-block-end: 1em;
 }
-.skill-box i{
+.skill-box i {
   margin-bottom: 1em;
 }
-.projects-container{
+.projects-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.projects-flex{
+.projects-flex {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
-.project-box{
-border: var(--border-color) solid 1px;
-border-radius: .5em;
-margin-bottom: 2em;
-padding-block-end: 1em;
-width: 20em;
+.project-box {
+  border: var(--border-color) solid 1px;
+  border-radius: 0.5em;
+  margin-bottom: 2em;
+  padding-block-end: 1em;
+  width: 20em;
 }
-.img{
+.img {
   background-image: url(/images/project-template.jpg);
   background-position: center;
   background-size: cover;
@@ -120,8 +120,8 @@ width: 20em;
   height: 15em;
   margin-bottom: 1em;
 }
-.skills-used{
-  font-size: .8rem;
+.skills-used {
+  font-size: 0.8rem;
   font-weight: 500;
   background: linear-gradient(to right, #fd4766, #7644ff, #1c99fe);
   background-size: 100%;
@@ -129,44 +129,41 @@ width: 20em;
   -webkit-text-fill-color: transparent;
   padding-top: 2em;
 }
-.title{
+.title {
   font-weight: 600;
   font-size: 1.5rem;
   padding-bottom: 2em;
-  
 }
-.title:hover{
+.title:hover {
   text-decoration: underline;
 }
 
 .projects-container a {
-  
   text-decoration: none;
   color: var(--text-color);
   background: var(--gradient);
   padding: 0.5em 2em;
   border-radius: 2em;
 }
-@media (min-width:800px) {
-  .about-me-container{
+@media (min-width: 800px) {
+  .about-me-container {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: left;
   }
-  .info{
-    display:flex;
+  .info {
+    display: flex;
     flex-direction: column;
     align-items: center;
     margin-left: 3em;
   }
-  .skills-flex{
+  .skills-flex {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .projects-flex{
+  .projects-flex {
     display: flex;
   }
 }
-
