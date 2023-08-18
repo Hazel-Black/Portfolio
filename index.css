@@ -10,7 +10,7 @@
   border-radius: 20em;
   margin-top: 10em;
   max-width: 80%;
-  height: 19em;
+  height: 15em;
 }
 
 .circle img {
@@ -132,13 +132,21 @@ h4 {
 .title {
   font-weight: 600;
   font-size: 1.5rem;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
 }
 .title:hover {
   text-decoration: underline;
+ 
 }
-
-.projects-container a {
+.project-box a{
+color: var(--text-color);
+text-decoration: none;
+margin-right: 1em;
+}
+.project-box a:hover{
+  text-decoration: underline;
+}
+.projects-link-main {
   text-decoration: none;
   color: var(--text-color);
   background: var(--gradient);
@@ -157,13 +165,26 @@ h4 {
     flex-direction: column;
     align-items: center;
     margin-left: 3em;
+   
   }
+   .skills-container{
+    text-align: center;
+   }
   .skills-flex {
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .projects-flex {
-    display: flex;
+    flex-direction: row;
+  }
+  .project-box{
+    margin-right: 1em;
+  }
+}
+@media (min-width:850px) {
+  .info{
+    max-width: 20em;
+    margin-left: 5em;
   }
 }
