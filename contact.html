@@ -4,21 +4,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/HazelB Dev_free-file.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/HazelB Dev_free-file.png"
+    />
 
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="contact.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Playball&family=Poppins:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/1f424e84d4.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Contact</title>
   </head>
   <body>
     <header>
-      <img class="logo" src="images/Hazel Black.png" alt="">
+      <img class="logo" src="images/Hazel Black.png" alt="" />
       <input type="checkbox" id="nav-toggle" class="nav-toggle" />
       <nav>
         <ul>
@@ -35,40 +50,49 @@
           <li>
             <a href="#">Contact</a>
           </li>
-          
         </ul>
       </nav>
       <label for="nav-toggle" class="nav-toggle-label"><span></span> </label>
     </header>
     <main>
-      <form action="https://formsubmit.co/hazelbdev@gmail.com" method="POST">
-        <input type="hidden" name="_subject" value="New submission!" />
-        <input type="hidden" name="_captcha" value="true" />
-        <input
-          type="hidden"
-          name="_next"
-          value="https://hazelbdev.com/thankyou.html"
-        />
-        <input type="text" name="firstname" placeholder="First Name" required />
-        <input type="text" name="lastname" placeholder="Last Name" required />
-        <input
-          type="email"
-          name="email"
-          placeholder="Email"
-          class="email"
-          required
-        />
-        <textarea
-          name="Message"
-          id="Message"
-          rows="10"
-          placeholder="Message"
-          type="text"
-        ></textarea>
-        <button type="submit">Submit</button>
-      </form>
+      <div class="banner"></div>
+      <div class="contact-container">
+        <h1>Send Me A Message</h1>
+        <form action="https://formsubmit.co/hazelbdev@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="New submission!" />
+          <input type="hidden" name="_captcha" value="true" />
+          <input
+            type="hidden"
+            name="_next"
+            value="https://hazelbdev.com/thankyou.html"
+          />
+          <input type="text" name="name" placeholder="Enter Name" required />
+
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter Email"
+            class="email"
+            required
+          />
+          <textarea
+            name="Message"
+            id="Message"
+            rows="10"
+            placeholder="Enter Message"
+            type="text"
+          ></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
     </main>
     <footer>
+      <div class="icons-flex">
+        <div>
+          <a href="https://github.com/Hazel-Black">
+            <i class="fa-brands fa-github fa-2xl" style="color: #ffffff"></i
+          ></a>
+        </div>
         <div>
           <a href="https://www.linkedin.com/in/hazel-black-a40315237/">
             <i class="fa-brands fa-linkedin fa-2xl" style="color: #ffffff"></i

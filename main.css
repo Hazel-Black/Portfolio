@@ -7,11 +7,11 @@
   --main-color: #000000;
   --main-color-light: #181818e0;
   --alt-footer-color: #141515;
-  --gradient: linear-gradient(to right,#fd4766, #7644ff,  #1c99fe);
+  --gradient: linear-gradient(to right, #fd4766, #7644ff, #1c99fe);
   --bg-color: #181818;
   --border-color: #313333;
   --text-color: white;
-  --alt-text:#A0A2A4;
+  --alt-text: #a0a2a4;
   --main-font: "Poppins";
   --alt-font: "Playball";
 }
@@ -112,25 +112,23 @@ nav a:hover {
 footer {
   margin-top: auto;
   padding-bottom: 2em;
-
-  background-color:var(--main-color) ;
+  background-color: var(--main-color);
 }
 .contact-container {
-  padding: 2em 1em ;
-  background-color:var(--alt-footer-color) ;
+  padding: 2em 1em;
+  background-color: var(--alt-footer-color);
 }
-.contact-container h3{
+.contact-container h3 {
   font-size: 1rem;
-  background: linear-gradient(to right, #fd4766, #7644ff,#1c99fe) ;
+  background: linear-gradient(to right, #fd4766, #7644ff, #1c99fe);
   background-size: 50%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 2em;
 }
-.contact-container h4{
+.contact-container h4 {
   text-align: center;
   font-size: 2rem;
-  
 }
 form {
   display: flex;
@@ -138,7 +136,6 @@ form {
   align-items: center;
   flex-direction: column;
   padding: 2em;
-  
 }
 input {
   width: 90%;
@@ -196,14 +193,14 @@ button {
   padding: 1em 2em;
   border-radius: 2em;
 }
-.icons-flex{
+.icons-flex {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 2em;
 }
-.icons-flex i{
+.icons-flex i {
   margin-right: 1em;
   margin-left: 1em;
 }
