@@ -110,7 +110,7 @@ h4 {
   width: 20em;
 }
 .img {
-  background-image: url(/images/project-template.jpg);
+  background-image: url(images/project-template.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
