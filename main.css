@@ -5,7 +5,7 @@
 }
 :root {
   --main-color: #000000;
-  --main-color-light: #181818bd;
+  --main-color-light: #181818e0;
   --alt-footer-color: #141515;
   --gradient: linear-gradient(to right,#fd4766, #7644ff,  #1c99fe);
   --bg-color: #181818;
