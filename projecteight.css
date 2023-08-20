@@ -15,8 +15,13 @@
   padding-block: 5em;
 }
 .container {
-  padding-inline: 4em;
+  padding-inline: 2em;
 }
+.container a{
+color: white;
+
+}
+
 .img {
   background-position: center;
   background-size: contain;
@@ -26,7 +31,7 @@
   margin-bottom: 1em;
 }
 .hero-img {
-  background-image: url(images/project-hero-image.jpg);
+  background-image: url(images/Project-8.png);
 }
 h1 {
   text-align: center;
@@ -58,7 +63,7 @@ span {
     height: 30em;
   }
   .img {
-    width: 20em;
+    width: 30em;
     margin-right: 2em;
     margin-left: 2em;
   }
@@ -96,6 +101,11 @@ span {
   }
 }
 @media (min-width: 1130px) {
+  .img{
+    width: 60em;
+    height: 20em;
+    margin-right: 0em;
+  }
   .icon-flex-2 {
     display: flex;
     justify-content: center;
@@ -103,6 +113,7 @@ span {
   }
 }
 @media (min-width: 1390px) {
+
   .flex-section {
     padding-inline: 2em;
   }
