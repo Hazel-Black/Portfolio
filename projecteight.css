@@ -17,9 +17,8 @@
 .container {
   padding-inline: 2em;
 }
-.container a{
-color: white;
-
+.container a {
+  color: white;
 }
 
 .img {
@@ -87,7 +86,6 @@ span {
   .flex-1 {
     display: flex;
     flex-direction: row-reverse;
-    
   }
   .flex-2 {
     display: flex;
@@ -101,32 +99,30 @@ span {
   }
 }
 @media (min-width: 1130px) {
-  .img{
+  .img {
     width: 50em;
     height: 20em;
     margin-right: 0em;
   }
-  .flex-1,.flex-2 {
+  .flex-1,
+  .flex-2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    }
+  }
 }
 @media (min-width: 1390px) {
-
   .flex-section {
     padding-inline: 2em;
   }
-  .bottom-section{
+  .bottom-section {
     padding-inline: 10em;
   }
-  .outcome{
+  .outcome {
     margin-left: 3em;
   }
-  .par{
+  .par {
     margin-right: 5em;
     margin-left: 5em;
   }
-  
 }
