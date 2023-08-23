@@ -42,7 +42,9 @@
   height: 15em;
   margin-bottom: 1em;
 }
-
+.project-7{
+  background-image: url(images/project-7.png);
+}
 .project-8 {
   background-image: url(images/project-8.png);
 }

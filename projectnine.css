@@ -127,6 +127,7 @@ span {
   .par{
     margin-right: 5em;
     margin-left: 5em;
+    max-width: 60em;
   }
   
 }
